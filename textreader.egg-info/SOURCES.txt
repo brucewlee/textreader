@@ -1,0 +1,8 @@
+setup.py
+textreader/__init__.py
+textreader/coefs.py
+textreader/reader.py
+textreader.egg-info/PKG-INFO
+textreader.egg-info/SOURCES.txt
+textreader.egg-info/dependency_links.txt
+textreader.egg-info/top_level.txt
