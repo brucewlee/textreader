@@ -3,7 +3,6 @@ venv/
 dist/
 **/.DS_Store
 MANIFEST.in
-textreader.egg-info
+textreader.egg-info/
 build/
-dist/
 tester.py
