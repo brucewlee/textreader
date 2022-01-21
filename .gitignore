@@ -3,4 +3,6 @@ venv/
 dist/
 **/.DS_Store
 MANIFEST.in
-lingfeat.egg-info
+textreader.egg-info
+build/
+dist/
