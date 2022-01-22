@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '1.1.1'
+VERSION = '1.1.2'
 DESCRIPTION = 'TextReader'
 LONG_DESCRIPTION = 'TextReader'
 
@@ -13,7 +13,7 @@ setup(
   #required for multi-level directory packages
   packages=find_packages(),
 
-  version = '1.1.1',
+  version = '1.1.3',
   license='cc-by-nc-sa-4.0',
   description = 'Many Readability Formulas for General Uses', 
   author = 'Bruce W. Lee',        
