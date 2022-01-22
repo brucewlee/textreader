@@ -1,7 +1,7 @@
-[![cc-by-nc-sa-4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+<img alt="cc-by-nc-sa-4.0" src="https://img.shields.io/badge/License-cc--by--nc--sa--4.0-critical"></a>
 [![spaCy](https://img.shields.io/badge/made%20with%20❤%20and-spaCy-09a3d5.svg)](https://spacy.io)
 <a href="https://pypi.org/project/textreader"><img alt="PyPI" src="https://img.shields.io/badge/pypi-supported-yellow"></a>
-<img alt="textreader" src="https://img.shields.io/badge/textreader-v.1.0.0-red"></a>
+<img alt="textreader" src="https://img.shields.io/badge/textreader-v.1.1.1-informational"></a>
 
 # TextReader
 
@@ -42,3 +42,9 @@ Research paper is currently under peer-review.
 >>> print(TextReader.read_time()) #or .RT()
 ```
 
+## Install
+
+### Install using pip
+```shell
+pip install textreader
+```
