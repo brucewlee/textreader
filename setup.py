@@ -27,8 +27,8 @@ setup(
           'nltk'
       ],
 
-  classifiers=[< 
-    'Development Status :: 5 - Production',      # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
+  classifiers=[
+    'Development Status :: 5 - Production/Stable',      # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
     'Intended Audience :: Developers',      # Define that your audience are developers
     'Topic :: Software Development :: Build Tools',
     'Intended Audience :: Education',
