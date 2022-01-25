@@ -13,7 +13,7 @@ setup(
   #required for multi-level directory packages
   packages=find_packages(),
 
-  version = '1.1.4',
+  version = '1.1.5',
   license='cc-by-nc-sa-4.0',
   description = 'Many Readability Formulas for General Uses', 
   author = 'Bruce W. Lee',        
@@ -21,7 +21,7 @@ setup(
   url = 'https://github.com/brucewlee',
   keywords = ['NLP', 'LINGUISTIC FEATURE', 'READABILITY'], 
   install_requires=[            # I get to this in a second
-          'spacy >= 3.0.0',
+          'spacy >= 3.0.0, <3.1.0',
           'supar',
           'pandas',
           'nltk',
