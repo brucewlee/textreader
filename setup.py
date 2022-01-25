@@ -13,7 +13,7 @@ setup(
   #required for multi-level directory packages
   packages=find_packages(),
 
-  version = '1.1.3',
+  version = '1.1.4',
   license='cc-by-nc-sa-4.0',
   description = 'Many Readability Formulas for General Uses', 
   author = 'Bruce W. Lee',        
@@ -24,7 +24,8 @@ setup(
           'spacy >= 3.0.0',
           'supar',
           'pandas',
-          'nltk'
+          'nltk',
+          'wget'
       ],
 
   classifiers=[

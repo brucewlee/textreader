@@ -8,14 +8,14 @@ import spacy
 from spacy.tokens import Doc, Span
 import nltk
 
-import textreader.coefs as coefs
+import textreader.textreader.coefs as coefs
 
-SPACY = spacy.load('en_core_web_sm')
+dir_path = os.path.dirname(os.path.realpath(__file__))
+
+SPACY = spacy.load(dir_path+'/data/en_core_web_sm-3.0.0')
 SUPAR = Parser.load('crf-con-en')
 
 Span.set_extension("con_tree", getter=lambda x: SUPAR.predict([i.text for i in x],verbose=False)[0])
-
-dir_path = os.path.dirname(os.path.realpath(__file__))
 
 
 """

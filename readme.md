@@ -1,7 +1,7 @@
 <img alt="cc-by-nc-sa-4.0" src="https://img.shields.io/badge/License-cc--by--nc--sa--4.0-critical"></a>
 [![spaCy](https://img.shields.io/badge/made%20with%20❤%20and-spaCy-09a3d5.svg)](https://spacy.io)
 <a href="https://pypi.org/project/textreader"><img alt="PyPI" src="https://img.shields.io/badge/pypi-supported-yellow"></a>
-<img alt="textreader" src="https://img.shields.io/badge/textreader-v.1.1.3-informational"></a>
+<img alt="textreader" src="https://img.shields.io/badge/textreader-v.1.1.4-informational"></a>
 <img alt="Dev Status" src="https://img.shields.io/badge/Status-Stable-success"></a>
 
 # TextReader
@@ -48,5 +48,4 @@ Research paper is currently under peer-review.
 ### Install using pip
 ```shell
 pip install textreader
-python -m spacy download en_core_web_sm
 ```
