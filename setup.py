@@ -13,7 +13,7 @@ setup(
   #required for multi-level directory packages
   packages=find_packages(),
 
-  version = '1.1.5',
+  version = '1.1.6',
   license='cc-by-nc-sa-4.0',
   description = 'Many Readability Formulas for General Uses', 
   author = 'Bruce W. Lee',        

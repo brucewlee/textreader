@@ -8,7 +8,7 @@ import spacy
 from spacy.tokens import Doc, Span
 import nltk
 
-import textreader.textreader.coefs as coefs
+import textreader.coefs as coefs
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
 
